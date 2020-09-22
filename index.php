@@ -55,8 +55,8 @@ and open the template in the editor.
        $fourth->add_email('home','1684135841@qq.com');
        $fourth->add_email('work1','idywgif.com');
        $fourth->add_email('work2','fegreh.com');
-       $fourth->add_grade(96);
-       $fourth->add_grade(90);
+       $fourth->add_grade(80);
+       $fourth->add_grade(60);
        $fourth->add_grade(80);
         $fourth->status="Senior";
        $students['f616'] = $fourth;
