@@ -18,8 +18,8 @@ $this->surname = '';
 $this->first_name = '';
 $this->emails = array();
 $this->grades = array();
+$this->status = '';
 }
-
 
 function add_email($which,$address) {
 $this->emails[$which] = $address;
@@ -41,6 +41,8 @@ $result .= ' ('.$this->average().")\n";
 foreach($this->emails as $which=>$what)
 $result .= $which . ': '. $what. "\n";
 $result .= "\n";
+$result .="";
+$result .='Status'.$this->status;
 return '<pre>'.$result.'</pre>';
 }
 }
